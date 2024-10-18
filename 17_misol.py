@@ -3,4 +3,8 @@ foydalanib berilgan sonni yuzliklar xonasidagi sonni aniqlovchi programma tuzils
 
 num = int(input("Son kiriting: "))
 
-# FAIL
+# first = num // 1000
+# four = num % 10
+
+second = (num // 100) % 10
+print(second)
